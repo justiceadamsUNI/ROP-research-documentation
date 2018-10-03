@@ -32,9 +32,9 @@ What happens is that a buffer is created and then PASSED TO ANOTHER FUNCTION to 
 ```
 bool ReadPixels(TArray < FColor > & OutImageData, FReadSurfaceDataFlags InFlags, FIntRect InRect)
 ```
-This function is pretty useful for developers hoping to minimulate the players viewport with ease, and it also takes in a preallocated color buffer.
+This function is pretty useful for developers hoping to minipulate the player's viewport with ease, and it also takes in a preallocated color buffer.
 
-Going back to the foo example, what this means is that when `strcpy()` is called, the return address back to `foo()` is placed onto the stack, but it will soon be overwritten because a buffer overflow is imminent. Thus, switching directions is pretty useless to be honest... better luck next time for me. To better visualize this, consider the image from stack overflow
+Going back to the foo example, what this means is that when `strcpy()` is called, the return address back to `foo()` is placed onto the stack, but it will soon be overwritten because a buffer overflow is imminent. Thus, switching buffer directions is pretty useless to be honest... better luck next time for me. To better visualize this, consider the image from stack overflow
 ```
     stack grows to the right -->
     memory addresses increase to the right -->
