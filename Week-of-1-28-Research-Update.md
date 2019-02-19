@@ -1,4 +1,4 @@
-# Week Of 1/14 Research Update
+# Week Of 1/28 Research Update
 Over the past two weeks, I have managed to add a level of randomness to my Noop insertions, I plugged my custom compiler into Unreal Engine, and outlined what future work needs to happen before the year's end. Most of my time was spent figuring out a way to use my custom compiler with Unreal Engine, which turns out, is not easy.
 
 ## No-ops Version 2
