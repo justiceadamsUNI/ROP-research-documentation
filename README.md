@@ -12,7 +12,7 @@ Throughout the 2018-2019 school year, I will be working with [Dr. Wallingford](w
   <img src ="https://img.buzzfeed.com/buzzfeed-static/static/2015-08/8/11/enhanced/webdr04/anigif_enhanced-31027-1439049075-2.gif" />
 </p>
 
-# The plan
+# The Plan
 Below is my plan of attack for this project. Note that any and all documentation will live here in this repo as well as on www.justiceadams.com. Hopefully, I can provide an update every week with relevant information and progress updates. As I work with Dr. Wallingford this plan is subject to change, but any changes will be documented appropriately.
 - Research ROP attacks and tactics. I'm going to find out what causes the exploits and what attackers are looking for in generated target code. Hopefully, I can get a sense of the patterns they look for which will help later on.
 - Research LLVM back-end code generation with an emphasis on how clang(the compiler driver) interacts with these pieces to generate an executable. Pairing this with my understanding of ROP attacks, I'm hoping to spot patterns in generated code.
@@ -25,3 +25,9 @@ Usefull links for the curious:
 - [LLVM](https://llvm.org/)
 - [Clang](http://clang.llvm.org/)
 - [Clang Mirror](https://github.com/llvm-mirror/clang)
+
+
+# Results
+After a year of research, I've successfully managed to reduce ROP gadget detection in LLMV-compiled games. I wrote a pretty extensive blog post over on my website where I discuss the process, issues, and results. For a more concise representation of the project, I encourage you to go check it out [here](http://www.justiceadams.com/blog/2019/5/28/can-we-prevent-rop-attacks-in-llvm-compiled-games)
+
+If you want a more verbose reading, feel free to read through the documentation in this repo
